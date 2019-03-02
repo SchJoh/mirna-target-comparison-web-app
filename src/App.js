@@ -73,6 +73,34 @@ class App extends React.Component {
                                         <Plot data={data2.data} layout={data2.layout} />
                                     </div>
                                 </PivotItem>
+                                <PivotItem headerText={'mature miRNA name identifier overlap'} itemIcon="BarChart4">
+                                    <div className="ms-Grid-col ms-sm3 ms-md3 ms-lg3">
+                                        <Label>miRNA vs utr alignment</Label>
+                                        <Image src={data2plot1} {...imageProps} alt="Example implementation with no image fit property and no height or width is specified." />
+                                        <br />
+                                        <Label>miRNA vs utr alignment only upper lower values</Label>
+                                        <Image src={data2plot2} {...imageProps} alt="Example implementation with no image fit property and no height or width is specified." />
+                                        <Label>
+                                            X-axis: miRNA overlap <br />
+                                            Y-axis: utr similarity <br />
+                                        </Label>
+                                    </div>
+                                    <div className="ms-Grid-col ms-sm9 ms-md9 ms-lg9">{/* <Plot data={data2.data} layout={data2.layout} /> */}</div>
+                                </PivotItem>
+                                <PivotItem headerText={'mature miRNA name identifier overlap'} itemIcon="BarChart4">
+                                    <div className="ms-Grid-col ms-sm3 ms-md3 ms-lg3">
+                                        <Label>miRNA vs utr alignment</Label>
+                                        <Image src={data2plot1} {...imageProps} alt="Example implementation with no image fit property and no height or width is specified." />
+                                        <br />
+                                        <Label>miRNA vs utr alignment only upper lower values</Label>
+                                        <Image src={data2plot2} {...imageProps} alt="Example implementation with no image fit property and no height or width is specified." />
+                                        <Label>
+                                            X-axis: miRNA overlap <br />
+                                            Y-axis: utr similarity <br />
+                                        </Label>
+                                    </div>
+                                    <div className="ms-Grid-col ms-sm9 ms-md9 ms-lg9">{/*  */}</div>
+                                </PivotItem>
                             </Pivot>
                         </div>
                     </div>
